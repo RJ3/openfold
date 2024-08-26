@@ -7,17 +7,18 @@ channels:
 dependencies:
   - python=3.10
   - libgcc=7.2
+  - cuda-nvcc=12.1
   - setuptools=59.5.0
   - pip
   - openmm=7.7
   - pdbfixer
   - pytorch-lightning
-  - biopython
-  - numpy
-  - pandas
+  - biopython=1.84
+  - numpy=1.26
+  - pandas=2.2.2
   - PyYAML==5.4.1
   - requests
-  - scipy
+  - scipy=1.14.1
   - tqdm==4.62.2
   - typing-extensions
   - wandb
